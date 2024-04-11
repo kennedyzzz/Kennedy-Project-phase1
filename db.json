@@ -1,0 +1,57 @@
+{
+  "Menu": [
+    {
+      "burgers": [
+        { "name": "Big Mac", "price": 5.99 },
+        { "name": "Quarter Pounder", "price": 4.99 },
+        { "name": "Double Quarter Pounder", "price": 6.99 },
+        { "name": "McDouble", "price": 4.69 },
+        { "name": "Cheeseburger", "price": 3.69 }
+      ],
+      "sandwiches": [
+        { "name": "McCrispy", "price": 2.99 },
+        { "name": "Deluxe McCrispy", "price": 3.59 },
+        { "name": "Spicy McCrispy", "price": 2.59 },
+        { "name": "McChicken", "price": 4.29 }
+      ],
+      "mcnuggets": [
+        { "name": "Chicken McNuggets", "price": 1.99 },
+        { "name": "10 Piece Chicken McNuggets", "price": 2.59 }
+      ],
+      "beverages": [
+        { "name": "Coke", "price": 1.99 },
+        { "name": "Dr Pepper", "price": 1.99 },
+        { "name": "Fanta Orange", "price": 1.99 },
+        { "name": "Diet Coke", "price": 1.99 },
+        { "name": "Lemonade", "price": 1.99 },
+        { "name": "Sweet tea", "price": 1.99 },
+        { "name": "Minute Maid Orange", "price": 1.99 }
+      ],
+      "happyMeal": [
+        { "name": "Hamburger Happy Meal", "price": 7.99 },
+        { "name": "4 Piece Chicken McNuggets Happy Meal", "price": 7.49 },
+        { "name": "6 Piece Chicken McNuggets Happy Meal", "price": 9.99 }
+      ],
+      "fries": [
+        { "name": "Large Fries", "price": 1.99 },
+        { "name": "Medium Fries", "price": 1.39 },
+        { "name": "Small Fries", "price": 1.99 },
+        { "name": "Mc,D fries", "price": 2.99 }
+      ],
+      "breakfast": [
+        { "name": "Bacon, Egg & Cheese Biscuit", "price": 6.99 },
+        { "name": "Egg McMuffin", "price": 5.39 },
+        { "name": "Sausage McMuffin with Egg", "price": 5.99 },
+        { "name": "Big Breakfast", "price": 8.99 }
+      ],
+      "sauces": [
+        { "name": "Tangy Barbeque Sauce", "price": 0.0 },
+        { "name": "Spicy Buffalo Sauce", "price": 0.0 },
+        { "name": "Ranch", "price": 0.0 },
+        { "name": "Sweeet 'N Sour", "price": 0.0 },
+        { "name": "Ketchup", "price": 0.0 },
+        { "name": "Mustard", "price": 0.0 }
+      ]
+    }
+  ]
+}

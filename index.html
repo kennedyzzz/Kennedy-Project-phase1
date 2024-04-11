@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title class="title">McDonald's Menu</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img
+      id="yoh"
+      src="data:image/png;base64,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"
+      class="object-fit-scale border rounded"
+      alt=""
+    />
+    <h1 id="yah">McDonald's Menu</h1>
+    <div class="menu-container">
+      <div class="category">
+        <h2>
+          Burgers
+          <img
+            id="a"
+            src="https://s7d1.scene7.com/is/image/mcdonalds/DC_202201_0007-005_QuarterPounderwithCheese_832x472:nutrition-calculator-tile"
+            alt=""
+          />
+        </h2>
+        <ul id="burgers">
+          <li data-name="Big Mac" data-price="5.99">Big Mac</li>
+          <li data-name="Quarter Pounder" data-price="4.99">Quarter Pounder</li>
+          <li data-name="Double Quarter Pounder" data-price="6.99">
+            Double Quarter Pounder
+          </li>
+          <li data-name="McDouble" data-price="4.69">McDouble</li>
+          <li data-name="Cheeseburger" data-price="3.69">Cheeseburger</li>
+        </ul>
+      </div>
+      <div class="category">
+        <h2>
+          Sandwiches
+          <img
+            id="a"
+            src="https://s7d1.scene7.com/is/image/mcdonalds/nav_chickenfishsandwiches_160x160:menu-category?resmode=sharp2"
+            alt=""
+          />
+        </h2>
+        <ul id="sandwiches">
+          <li data-name="McCrispy" data-price="2.99">McCrispy</li>
+          <li data-name="Deluxe McCrispy" data-price="3.59">Deluxe McCrispy</li>
+          <li data-name="Spicy McCrispy" data-price="2.59">Spicy McCrispy</li>
+          <li data-name="McChicken" data-price="4.29">McChicken</li>
+        </ul>
+      </div>
+      <div class="category">
+        <h2>
+          McNuggets
+          <img
+            id="a"
+            src="https://s7d1.scene7.com/is/image/mcdonalds/DC_202208_5280_10McNuggets_Stacked_832x472:nutrition-calculator-tile"
+            alt=""
+          />
+        </h2>
+        <ul id="mcnuggets">
+          <li data-name="Chicken McNuggets" data-price="1.99">
+            Chicken McNuggets
+          </li>
+          <li data-name="10 Piece Chicken McNuggets" data-price="2.59">
+            10 Piece Chicken McNuggets
+          </li>
+        </ul>
+      </div>
+
+      <div class="category">
+        <h2>
+          Beverages
+          <img
+            id="a"
+            src="https://s7d1.scene7.com/is/image/mcdonalds/drinks_300x300:category-panel-left-desktop"
+            alt=""
+          />
+        </h2>
+        <ul id="beverages">
+          <li data-name="Coke" data-price="1.99">Coke</li>
+          <li data-name="Dr Pepper" data-price="1.99">Dr Pepper</li>
+          <li data-name="Fanta Orange" data-price="1.99">Fanta Orange</li>
+          <li data-name="Diet Coke" data-price="1.99">Diet Coke</li>
+          <li data-name="Lemonade" data-price="1.99">Lemonade</li>
+          <li data-name="Sweet tea" data-price="1.99">Sweet Tea</li>
+          <li data-name="Minute Maid Orange" data-price="1.99">
+            Minute Maid Orange
+          </li>
+        </ul>
+      </div>
+      <div class="category">
+        <h2>
+          Happy Meal
+          <img
+            id="a"
+            src="https://s7d1.scene7.com/is/image/mcdonalds/DC_202103_7780_6McNuggetsHappyMeal_AppleSlices_WhiteMilkJug_Left_832x472:nutrition-calculator-tile"
+            alt=""
+          />
+        </h2>
+        <ul id="happy Meal">
+          <li data-name="Hamburger Happy Meal" data-price="7.99">
+            Hamburger Happy Meal
+          </li>
+          <li
+            data-name="4 Piece Chicken McNuggets Happy Meal"
+            data-price="7.49"
+          >
+            4 Piece Chicken McNuggets Happy Meal
+          </li>
+          <li
+            data-name="6 Piece Chicken McNuggets Happy Meal"
+            data-price="9.99"
+          >
+            6 Piece Chicken McNuggets Happy Meal
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="menu-container">
+      <div class="category">
+        <h2>
+          Fries
+          <img
+            id="a"
+            src="https://s7d1.scene7.com/is/image/mcdonalds/DC_202002_6050_SmallFrenchFries_Standing_832x472:nutrition-calculator-tile"
+            alt=""
+          />
+        </h2>
+        <ul id="fries">
+          <li data-name="Large Fries" data-price="1.99">Large Fries</li>
+          <li data-name="Medium Fries" data-price="1.39">Medium Fries</li>
+          <li data-name="Small Fries" data-price="1.99">Small Fries</li>
+          <li data-name="Mc,D fries" data-price="2.99">Mc,D Fries</li>
+        </ul>
+      </div>
+      <div class="category">
+        <h2>
+          BreakFast
+          <img
+            id="a"
+            src="https://s7d1.scene7.com/is/image/mcdonalds/breakfast_300x300:category-panel-left-desktop"
+            alt=""
+          />
+        </h2>
+        <ul id="Breakfast">
+          <li data-name="Bacon, Egg & Cheese Biscuit" data-price="6.99">
+            Bacon, Egg & Cheese Biscuit
+          </li>
+          <li data-name="Egg McMuffin" data-price="5.39">Egg McMuffin</li>
+          <li data-name="Sausage McMuffin with Egg" data-price="5.99">
+            Sausage McMuffin with Egg
+          </li>
+          <li data-name="Big Breakfast" data-price="8.99">Big Breakfast</li>
+        </ul>
+      </div>
+      <div class="category">
+        <h2>
+          Sauces
+          <img
+            id="a"
+            src="https://s7d1.scene7.com/is/image/mcdonalds/Sauces_404x176_Desktop:1-3-full-bleed-tile-desktop?resmode=sharp2"
+            alt=""
+          />
+        </h2>
+        <ul id="sauces">
+          <li data-name="Tangy Barbeque Sauce" data-price="0.00">
+            Tangy Barbeque Sauce
+          </li>
+          <li data-name="Spicy Buffalo Sauce" data-price="0.00">
+            Spicy Buffalo Sauce
+          </li>
+          <li data-name="Ranch" data-price="0.00">Ranch</li>
+          <li data-name="Sweeet 'N Sour" data-price="0.00">Sweeet 'N Sour</li>
+          <li data-name="Ketchup" data-price="0.00">Ketchup</li>
+          <li data-name="Mustard" data-price="0.00">Sweeet 'N Sour</li>
+        </ul>
+      </div>
+    </div>
+
+    <button id="order-btn">Place Order</button>
+
+    <div id="order-summary">
+      <h2>Order Summary</h2>
+      <ul id="order-list"></ul>
+      <p>Total: $<span id="total">0.00</span></p>
+    </div>
+
+    <div class="mb-3">
+      <p id="lol">Comments</p>
+      <label for="exampleFormControlInput1" class="form-label"
+        >Email address</label
+      >
+      <input
+        type="email"
+        class="form-control"
+        id="exampleFormControlInput1"
+        placeholder="name@example.com"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label"
+        >Comment</label
+      >
+      <textarea
+        class="form-control"
+        id="exampleFormControlTextarea1"
+        rows="3"
+      ></textarea>
+    </div>
+
+    <div class="position-relative" id="lol">
+      Deliveries
+      <p>Contact Delivery Information Desk:0727105264</p>
+    </div>
+
+    <script src="./Js/index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

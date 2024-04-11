@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white
+}
+
+.title{
+font-family: 'Times New Roman', Times, serif;
+font-size: larger;
+}
+#yah{
+    font-style: italic;
+    color: #f9a825;
+    font-weight: 100;
+}
+
+#a{
+    height: 100px;
+}
+.category {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.category {
+  width: 45%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  cursor: pointer;
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+li:hover {
+  background-color: #e9e9e9;
+}
+
+#order-summary {
+  margin: 20px auto;
+  width: 50%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#order-list {
+  padding: 0;
+}
+
+#order-list li {
+  margin-bottom: 5px;
+}
+
+#order-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #f9a825;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+#order-btn:hover {
+  background-color: #f57f17;
+}
+#lol{
+    font-style: italic;
+    font-size: larger;
+    color: #f9a825 ;
+}
