@@ -30,7 +30,7 @@ function updateOrderSummary() {
   totalElement.textContent = total.toFixed(2);
 }
 
-const base_url = "http://localhost:3000/Menu";
+const base_url = "https://my-json-server.typicode.com/kennedyzzz/Kennedy-Project-phase1/Menu";
 
 function fetching() {
   fetch(`${base_url}`, {
